@@ -1,0 +1,513 @@
+*{
+    background-color: #F0F2F5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.basliq1{
+    display: flex;
+}
+.facebook{
+    color: #1877f2;;
+    margin-left: 190px;
+    margin-top: 200px;
+    font-size:60px;
+    font-weight:bolder;
+    font-family:Helvetica, Arial, sans-serif;
+    letter-spacing:-2px;
+    cursor:default;
+}
+.yazi{
+    font-size: 25px;
+    font-family:Helvetica, Arial, sans-serif;
+    margin-left: 190px;
+    width: 450px;
+    column: rule #1c1e21;
+    margin-top: 10px;
+}
+.second{
+    margin-top: 150px;
+    margin-left: 80px;
+    border: solid 2px #DBDDDF;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    height: 363px;
+    box-shadow: 0 0 16px #DBDDDF;
+}
+
+input{
+    width: 370px;
+    height: 53px;
+    background-color: white;
+    border: #8b95a3 1px solid;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.8rem;
+    opacity: 0.7;
+    outline: 0;
+    
+}
+input:focus{
+    border: #1877f2 1px solid;
+    box-shadow:0 0 #1877f2;
+}
+
+.E-posta{
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+
+.Sifre{
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.giris{
+    background-color: white;
+    margin-left: 15px;
+}
+.button1{
+    border: #166fe5 1px solid;
+    font-size: 21px;
+    font-weight: bolder;
+    color: white;
+    background-color:#1877E2;
+    width: 370px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color:#166FE5;
+}
+.sifrenimi{
+    margin-left: 140px;
+    font-size: 14px;
+    color:#166FE5;
+    background-color: white;
+}
+.sifrenimi1{
+    margin-top:21px;
+    background-color: white;
+}
+.sifrenimi:hover{
+    text-decoration: underline;
+}
+.xett{
+    background-color: white;
+    margin-left: 10px;
+    margin-top:5px;
+    opacity:0.15;
+}
+.yeni{
+    margin-top: 23px;
+    background-color: white;
+    margin-left: 110px;
+    padding-bottom: 20px;
+}
+.yenihesap{
+    width: 185px;
+    height: 47px;
+    background-color:#42B72A;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.yenihesap:hover{
+    background-color: #36A420;
+}
+.son{
+    margin-top: 40px;
+    display: flex;
+}
+.son1{
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: -5px;
+    font-family:Helvetica, Arial, sans-serif;
+}
+.son2{
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 7px;
+    margin-top: -4px;
+}
+.son2:hover{
+    text-decoration: underline;
+}
+
+.finish{
+    background: #fff;
+}
+.finish  *{
+    background: #fff;
+}
+
+.diller{
+    width: 1100px;
+    display: flex;
+    margin-top: 260px;
+    margin-left: 175px;
+    font-family: inherit;
+    padding-top: 25px;
+}
+.turkce{
+    font-size: 13px;
+    color: #8a8d91;
+    font-family: inherit;
+}
+.azerbaycanca1{
+    margin-left: 10px;
+    font-size: 12px;
+    color:#8a8d91;
+}
+.azerbaycanca1:hover{
+    text-decoration: underline;
+}
+.rusca1{
+    margin-left: 10px;
+    font-size: 12px;
+    color:#8a8d91;
+}
+.rusca1:hover{
+    text-decoration: underline;
+}
+.ingilis1{
+    margin-left: 10px;
+    font-size: 12px;
+    color:#8a8d91;
+}
+.ingilis1:hover{
+    text-decoration: underline;
+}
+.erebce1{
+    color:#8a8d91;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.erebce1:hover{
+    text-decoration: underline;
+}
+.almanca1{
+    color:#8a8d91;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.almanca1:hover{
+    text-decoration: underline;
+}
+.fransizca1{
+    color:#8a8d91;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.fransizca1:hover{
+    text-decoration: underline;
+}
+.persian1{
+    color:#8a8d91;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.persian1:hover{
+    text-decoration: underline;
+}
+.gurcu1{
+    color:#8a8d91;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.gurcu1:hover{
+    text-decoration: underline;
+}
+.ispanca1{
+    color:#8a8d91;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.ispanca1:hover{
+    text-decoration: underline;
+}
+.portugalca1{
+    color:#8a8d91;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.portugalca1:hover{
+    text-decoration: underline;
+}
+.plus1{
+    border: solid 1px #CCD0D5;
+    margin-left: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.plus1:hover{
+    background: #F0F2F5;  
+}
+.plus1 :hover{
+    background: #F0F2F5;
+}
+.plus{
+    margin-left:9px;
+    font-size: 12px;
+    color:#676E7D;
+    margin-top: 2px;
+    padding-right:8px;
+}
+.plus :hover{
+    background: #F0F2F5;
+}
+.xett2{
+    margin-left: 10px;
+    margin-top:5px;
+    opacity:0.15;
+    margin-left: 175px;
+    margin-top: -4px;
+}
+
+
+.esaslar{
+    display: flex;
+    margin-left: 160px;
+    font-size: 13px;
+    margin-top: 10px;  
+}
+.esaslar a{
+    color: #8a8d91;
+}
+.kaydol{
+    margin-left: 15px;
+    font-size: 12px;
+    color:#8a8d91;
+}
+.kaydol1:hover{
+    text-decoration: underline;
+}
+.girisyap{
+    margin-left: 20px;
+    font-size: 12px;
+    color:#8a8d91;
+}
+.girisyap1:hover{
+    text-decoration: underline;
+}
+.messenger{
+    margin-left: 20px;
+    font-size: 12px;
+    color:#8a8d91;
+}
+.messenger1:hover{
+    text-decoration: underline;
+}
+.facebook2{
+    color:#8a8d91;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.facebook21:hover{
+    text-decoration: underline;
+}
+.watch{
+    color:#8a8d91;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.watch1:hover{
+    text-decoration: underline;
+}
+.yerler{
+    color:#8a8d91;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.yerler1:hover{
+    text-decoration: underline;
+}
+.oyunlar{
+    color:#8a8d91;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.oyunlar1:hover{
+    text-decoration: underline;
+}
+.market{
+    color:#8a8d91;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.market1:hover{
+    text-decoration: underline;
+}
+.facebookpay{
+    color:#8a8d91;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.facebookpay1:hover{
+    text-decoration: underline;
+}
+.işfırsatları{
+    color:#8a8d91;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.işfırsatları1:hover{
+    text-decoration: underline;
+}
+.oculus{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.oculus1:hover{
+    text-decoration: underline;
+}
+.portal{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.portal1:hover{
+    text-decoration: underline;
+}
+.instagram{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.instagram1:hover{
+    text-decoration: underline;
+}
+.yerel{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.yerel1:hover{
+    text-decoration: underline;
+}
+.esaslar2{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 5px;
+    font-size: 12px ;
+    font-family: inherit;
+}
+.esaslar2 a{
+color: #8a8d91;
+}
+
+.bagis{
+    margin-left: 15px;
+}
+.bagis1:hover{
+    text-decoration: underline;
+}
+.hizmet{
+    margin-left: 20px;
+}
+.hizmet1:hover{
+    text-decoration: underline;
+}
+.oy{
+    margin-left: 20px;
+}
+.oy1:hover{
+    text-decoration: underline;
+}
+.hakkimizda{
+    margin-left: 20px;
+}
+.hakkimizda1:hover{
+    text-decoration: underline;
+}
+.reklam{
+    margin-left: 20px;
+}
+.reklam1:hover{
+    text-decoration: underline;
+}
+.sayfa{
+    margin-left: 20px;
+}
+.sayfa1:hover{
+    text-decoration: underline;
+}
+.gelistirici{
+    margin-left: 20px;
+}
+.gelistirici1:hover{
+    text-decoration: underline;
+}
+.kariyer{
+    margin-left: 20px;
+}
+.kariyer1:hover{
+    text-decoration: underline;
+}
+.gizlilik{
+    margin-left: 20px;
+}
+.gizlilik1:hover{
+    text-decoration: underline;
+}
+.cerezler{
+    margin-left: 20px;
+}
+.cerezler1:hover{
+    text-decoration: underline;
+}
+
+.esaslar3{
+    display: flex;
+    margin-left: 160px;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-bottom: 40px;
+}
+.esaslar3 a{
+    color: #8a8d91;
+}
+.adchoices{
+    margin-left: 15px;
+    
+}
+.adchoices1:hover{
+    text-decoration: underline;
+}
+.kosullar{
+    margin-left: 20px;
+    
+}
+.kosullar1:hover{
+    text-decoration: underline;
+}
+.yardim{
+    margin-left: 20px;
+
+}
+.yardim1:hover{
+    text-decoration: underline;
+}
+
+.c{
+    margin-top: -15px;
+    font-size: 11px;
+    font-family:sans-serif;
+    padding-bottom: 25px;
+    margin-left: 175px;
+    color: #737373;
+}
